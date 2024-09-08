@@ -26,13 +26,13 @@ const programming = [
   },
   {
     id: 6,
-    lan: "CentOs",
+    lan: "CentOs/Ubuntu",
     exp: "Basic",
   },
   {
     id: 7,
-    lan: "Ubuntu",
-    exp: "Basic",
+    lan: "Ai/ChatGPT",
+    exp: "Experienced",
   },
   {
     id: 8,
