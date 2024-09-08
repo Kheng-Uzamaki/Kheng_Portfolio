@@ -32,8 +32,8 @@ $(document).ready(() => {
           <h2 class="experience-sub-title project-title">${p.pro_name}</h2>
           <p class="project-description">${p.pro_desc}</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='${p.proGit_Url}'">Github</button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='${p.pro_liveDemo}'">Live Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('${p.proGit_Url}', '_blank')">Github</button>
+      <button class="btn btn-color-2 project-btn" onclick="window.open('${p.pro_liveDemo}', '_blank')">Live Demo</button>
           </div>
         </div>
       `);

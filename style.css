@@ -61,6 +61,14 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  /* margin-top: 10px; */
+}
+#desktop-nav .logo img{
+  width: 150px;
+}
+.logo img{
+  width: 100px;
+  margin-top: 10px;
 }
 
 .logo:hover {
